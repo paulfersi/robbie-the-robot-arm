@@ -9,7 +9,7 @@ I quickly gave up on designing the arm so I just took the basic 3d model from ho
 
 ## V1
 
-The v1 is made using an **Arduino Mega** and 6 buttons to control the robot in any direction. I wanted to put something else other than I gripper but I ended up putting nothing so all it can do is punch people I guess.
+The v1 is made using an **Arduino Mega** and 6 buttons to control the robot in any direction. I wanted to put something else other than the gripper but I ended up putting nothing so all it can do is punch people I guess.
 
 ## V2
 
