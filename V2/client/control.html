@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robbie Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Robbie Control</h1>
+    <div class="control">
+        <label for="baseSlider">Base Angle: <span id="baseValue">80</span></label>
+        <input type="range" id="baseSlider" class="slider" min="0" max="180" value="80" oninput="updateAngle('base', this.value)">
+    </div>
+    <div class="control">
+        <label for="shoulderSlider">Shoulder Angle: <span id="shoulderValue">100</span></label>
+        <input type="range" id="shoulderSlider" class="slider" min="0" max="180" value="100" oninput="updateAngle('shoulder', this.value)">
+    </div>
+    <div class="control">
+        <label for="elbowSlider">Elbow Angle: <span id="elbowValue">180</span></label>
+        <input type="range" id="elbowSlider" class="slider" min="0" max="180" value="180" oninput="updateAngle('elbow', this.value)">
+    </div>
+    <div class="control">
+        <label for="wristSlider">Wrist Angle: <span id="wristValue">90</span></label>
+        <input type="range" id="wristSlider" class="slider" min="0" max="180" value="90" oninput="updateAngle('wrist', this.value)">
+    </div>
+
+    <script src="control.js"></script>
+</body>
+</html>
