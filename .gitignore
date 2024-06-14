@@ -1,10 +1,10 @@
 /V2/server/WiFiCredentials.h
 .git/
-install/
-log/
+/V3/install/
+/V3/log/
 Log/*.txt
-build/
-bin/
+/V3/build/
+/V3/bin/
 *__pycache__*
 *Log/
 *log/

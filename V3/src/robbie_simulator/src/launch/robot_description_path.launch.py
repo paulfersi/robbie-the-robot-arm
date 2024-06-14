@@ -5,5 +5,5 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        DeclareLaunchArgument('robot_description_path', default_value='$(find my_robot_arm)/urdf/robbie.urdf'),
+        DeclareLaunchArgument('robot_description_path', default_value='$(find robbie_simulator)/urdf/robbie.urdf'),
     ])

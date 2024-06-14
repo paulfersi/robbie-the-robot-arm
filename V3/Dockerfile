@@ -4,7 +4,9 @@ FROM ros:foxy
 # Install gazebo and clean apt cache 
 RUN apt-get update && apt-get install -y \
     ros-foxy-gazebo-ros-pkgs \
-    && rm -rf /var/lib/apt/lists/ 
+    && rm -rf /var/lib/apt/lists/ \
+    && vim \ 
+    && tmux 
 
 # Source ROS2 setup files
 RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
