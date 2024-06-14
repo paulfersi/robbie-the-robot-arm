@@ -20,3 +20,7 @@ The v1 is made using an **Arduino Mega** and 6 buttons to control the robot in a
 ## V2
 
 In the v2 I added an HTTP server and changed the board to an **Arduino Uno R4 Wifi**. The robot can be controlled via a web-ui.
+
+## V3
+
+The v3 features a simulated version of the robotic arm using ROS2 and Gazebo. (WIP)
