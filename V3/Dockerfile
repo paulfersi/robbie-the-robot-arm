@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
 # Source ROS2 setup files
 RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 
-
+# creates workspace and copy the project
 WORKDIR /ros2_ws
 COPY ./src /ros2_ws/src
 RUN . /opt/ros/foxy/setup.sh && colcon build
