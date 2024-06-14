@@ -1,6 +1,6 @@
 # Robbie 
 
-This repo contains the codes for my cute little companion, Robbie the robotic arm. This project is still WIP (cause I don't have a lot of ideas or time to implement them).
+The purpose of this repo is to store the codes for my cute little companion, Robbie the robotic arm. This project is still WIP (cause I don't have a lot of ideas or time to implement them).
 
 I quickly gave up on designing the arm so I just took the basic 3d model from how to mechatronics(Link to STL files: https://cults3d.com/en/3d-model/various/arduino-based-robot-arm-howtomechatronics)
 
