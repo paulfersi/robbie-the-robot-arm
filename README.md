@@ -6,8 +6,12 @@ I quickly gave up on designing the arm so I just took the basic 3d model from ho
 
 
 
-<img src="/images/main_robbie.png" width="300"> 
-<img src="/images/buttons.png" width="300">
+<p align="center">
+  <img src="/images/main_robbie.png" width="500">
+</p>
+<p align="center">
+  <img src="/images/buttons.png" width="500">
+</p>
 
 ## V1
 
