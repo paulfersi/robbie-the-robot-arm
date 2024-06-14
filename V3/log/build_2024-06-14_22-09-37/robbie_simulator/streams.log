@@ -1,0 +1,48 @@
+[0.012s] Invoking command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator -DCMAKE_INSTALL_PREFIX=/home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator
+[0.075s] -- The C compiler identification is GNU 9.4.0
+[0.142s] -- The CXX compiler identification is GNU 9.4.0
+[0.147s] -- Check for working C compiler: /usr/bin/cc
+[0.334s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.336s] -- Detecting C compiler ABI info
+[0.424s] -- Detecting C compiler ABI info - done
+[0.438s] -- Detecting C compile features
+[0.439s] -- Detecting C compile features - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.539s] -- Detecting CXX compiler ABI info
+[0.634s] -- Detecting CXX compiler ABI info - done
+[0.648s] -- Detecting CXX compile features
+[0.648s] -- Detecting CXX compile features - done
+[0.651s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.675s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.675s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.892s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.965s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.968s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.968s] -- Added test 'lint_cmake' to check CMake code style
+[0.969s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.970s] -- Added test 'xmllint' to check XML markup files
+[0.972s] -- Configuring done
+[0.974s] -- Generating done
+[0.975s] -- Build files have been written to: /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator
+[0.979s] Invoked command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator -DCMAKE_INSTALL_PREFIX=/home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator
+[0.983s] Invoking command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator -- -j8 -l8
+[1.030s] Invoked command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator -- -j8 -l8
+[1.072s] Invoking command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator
+[1.082s] -- Install configuration: ""
+[1.082s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/ament_index/resource_index/package_run_dependencies/robbie_simulator
+[1.083s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/ament_index/resource_index/parent_prefix_path/robbie_simulator
+[1.083s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/environment/ament_prefix_path.sh
+[1.083s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/environment/ament_prefix_path.dsv
+[1.083s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/environment/path.sh
+[1.083s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/environment/path.dsv
+[1.083s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/local_setup.bash
+[1.083s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/local_setup.sh
+[1.084s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/local_setup.zsh
+[1.084s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/local_setup.dsv
+[1.084s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/package.dsv
+[1.084s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/ament_index/resource_index/packages/robbie_simulator
+[1.085s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/cmake/robbie_simulatorConfig.cmake
+[1.085s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/cmake/robbie_simulatorConfig-version.cmake
+[1.085s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/share/robbie_simulator/package.xml
+[1.088s] Invoked command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator
