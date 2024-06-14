@@ -4,6 +4,7 @@ This is the ROS workspace.
 
 **docker run -it --rm --name robbie_container robbie_simulator**
 
+- robot_state_publisher, joint_state_publisher_gui and gazebo_ros are 3 packages included with ros. 
 
 - **urdf** contsains the robot in unified robot description format
 
