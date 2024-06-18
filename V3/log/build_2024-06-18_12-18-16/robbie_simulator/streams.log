@@ -1,0 +1,85 @@
+[0.030s] Invoking command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator -- -j8 -l8
+[0.082s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.507s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.507s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.557s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.796s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.883s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.961s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.965s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.357s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.415s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.419s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.428s] -- Searching for dependencies of ignition-math6
+[1.432s] -- Looking for OGRE...
+[1.443s] -- Found Ogre Ghadamon (1.9.0)
+[1.444s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.464s] -- Looking for OGRE_Paging...
+[1.464s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.465s] -- Looking for OGRE_Terrain...
+[1.465s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.465s] -- Looking for OGRE_Property...
+[1.466s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.466s] -- Looking for OGRE_RTShaderSystem...
+[1.466s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.466s] -- Looking for OGRE_Volume...
+[1.466s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.467s] -- Looking for OGRE_Overlay...
+[1.467s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.697s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.697s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.698s] -- Searching for dependencies of ignition-transport8
+[1.735s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.758s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.766s] -- Checking for module 'libzmq >= 4'
+[1.797s] --   Found libzmq , version 4.3.2
+[1.888s] -- Checking for module 'uuid'
+[1.919s] --   Found uuid, version 2.34.0
+[1.999s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.000s] -- Searching for dependencies of ignition-msgs5
+[2.038s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.048s] -- Checking for module 'tinyxml2'
+[2.079s] --   Found tinyxml2, version 6.2.0
+[2.170s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.199s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.201s] -- Searching for dependencies of ignition-common3
+[2.202s] -- Looking for dlfcn.h - found
+[2.202s] -- Looking for libdl - found
+[2.236s] -- Searching for <ignition-common3> component [graphics]
+[2.237s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[2.238s] -- Searching for dependencies of ignition-common3-graphics
+[2.238s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.252s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[2.253s] -- Searching for dependencies of ignition-fuel_tools4
+[2.306s] -- Checking for module 'jsoncpp'
+[2.337s] --   Found jsoncpp, version 1.7.4
+[2.425s] -- Checking for module 'libzip'
+[2.457s] --   Found libzip, version 1.5.1
+[2.537s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.538s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.539s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.541s] -- Gazebo version: 11.11
+[2.577s] CMake Error at CMakeLists.txt:23 (find_package):
+[2.577s]   By not providing "Findjoint_state_publisher_gui.cmake" in CMAKE_MODULE_PATH
+[2.577s]   this project has asked CMake to find a package configuration file provided
+[2.577s]   by "joint_state_publisher_gui", but CMake did not find one.
+[2.578s] 
+[2.578s]   Could not find a package configuration file provided by
+[2.578s]   "joint_state_publisher_gui" with any of the following names:
+[2.578s] 
+[2.578s]     joint_state_publisher_guiConfig.cmake
+[2.578s]     joint_state_publisher_gui-config.cmake
+[2.578s] 
+[2.578s]   Add the installation prefix of "joint_state_publisher_gui" to
+[2.579s]   CMAKE_PREFIX_PATH or set "joint_state_publisher_gui_DIR" to a directory
+[2.579s]   containing one of the above files.  If "joint_state_publisher_gui" provides
+[2.579s]   a separate development package or SDK, be sure it has been installed.
+[2.579s] 
+[2.579s] 
+[2.581s] -- Configuring incomplete, errors occurred!
+[2.581s] See also "/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeOutput.log".
+[2.582s] See also "/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeError.log".
+[2.595s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[2.599s] Invoked command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator -- -j8 -l8

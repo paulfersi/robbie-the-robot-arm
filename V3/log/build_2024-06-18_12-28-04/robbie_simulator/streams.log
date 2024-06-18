@@ -1,0 +1,81 @@
+[0.015s] Invoking command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator -- -j8 -l8
+[0.051s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.263s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.263s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.571s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.609s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.610s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.844s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.875s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.877s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.882s] -- Searching for dependencies of ignition-math6
+[0.883s] -- Looking for OGRE...
+[0.889s] -- Found Ogre Ghadamon (1.9.0)
+[0.890s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.900s] -- Looking for OGRE_Paging...
+[0.900s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.901s] -- Looking for OGRE_Terrain...
+[0.903s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.904s] -- Looking for OGRE_Property...
+[0.906s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.907s] -- Looking for OGRE_RTShaderSystem...
+[0.908s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.908s] -- Looking for OGRE_Volume...
+[0.909s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.910s] -- Looking for OGRE_Overlay...
+[0.910s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.029s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.030s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.030s] -- Searching for dependencies of ignition-transport8
+[1.049s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.061s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.066s] -- Checking for module 'libzmq >= 4'
+[1.083s] --   Found libzmq , version 4.3.2
+[1.134s] -- Checking for module 'uuid'
+[1.155s] --   Found uuid, version 2.34.0
+[1.209s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.210s] -- Searching for dependencies of ignition-msgs5
+[1.237s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.243s] -- Checking for module 'tinyxml2'
+[1.261s] --   Found tinyxml2, version 6.2.0
+[1.310s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.311s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.311s] -- Searching for dependencies of ignition-common3
+[1.311s] -- Looking for dlfcn.h - found
+[1.312s] -- Looking for libdl - found
+[1.323s] -- Searching for <ignition-common3> component [graphics]
+[1.323s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.324s] -- Searching for dependencies of ignition-common3-graphics
+[1.324s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.326s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.326s] -- Searching for dependencies of ignition-fuel_tools4
+[1.361s] -- Checking for module 'jsoncpp'
+[1.381s] --   Found jsoncpp, version 1.7.4
+[1.436s] -- Checking for module 'libzip'
+[1.455s] --   Found libzip, version 1.5.1
+[1.505s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.505s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.506s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.507s] -- Gazebo version: 11.11
+[1.516s] -- Found robot_state_publisher: 2.4.5 (/opt/ros/foxy/share/robot_state_publisher/cmake)
+[1.519s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.200s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.263s] -- Configuring done
+[2.313s] -- Generating done
+[2.320s] -- Build files have been written to: /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator
+[2.378s] Invoked command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator -- -j8 -l8
+[2.442s] Invoking command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator
+[2.461s] -- Install configuration: ""
+[2.462s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/lib/robbie_simulator/move_robot_arm.py
+[2.462s] -- Installing: /home/sonia/robbie-the-robot-arm/V3/install/robbie_simulator/lib/robbie_simulator/joint_state_publisher_gui.py
+[2.462s] CMake Error at cmake_install.cmake:48 (file):
+[2.463s]   file INSTALL cannot find
+[2.463s]   "/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator/src/robbie_simulator/src/launch":
+[2.463s]   No such file or directory.
+[2.463s] 
+[2.463s] 
+[2.469s] Invoked command in '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator

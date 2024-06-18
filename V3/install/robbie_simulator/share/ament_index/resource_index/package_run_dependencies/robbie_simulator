@@ -1,1 +1,1 @@
-ament_lint_auto;ament_lint_common
+rclpy;std_msgs;gazebo_ros;robot_state_publisher

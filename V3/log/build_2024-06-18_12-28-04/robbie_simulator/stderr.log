@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:48 (file):
+  file INSTALL cannot find
+  "/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator/src/robbie_simulator/src/launch":
+  No such file or directory.
+
+

@@ -38,6 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robbie_simulator" TYPE PROGRAM FILES
+    "/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator/src/scripts/move_robot_arm.py"
+    "/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator/src/scripts/joint_state_publisher_gui.py"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robbie_simulator" TYPE DIRECTORY FILES "/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator/src/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robbie_simulator" TYPE DIRECTORY FILES "/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator/src/urdf")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robbie_simulator")
 endif()
 

@@ -614,6 +614,15 @@ TINYXML2_LIBRARY_tinyxml2:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
+//The directory containing a CMake configuration file for TinyXML.
+TinyXML_DIR:PATH=TinyXML_DIR-NOTFOUND
+
+//Path to a file.
+TinyXML_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+TinyXML_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml.so
+
 //Path to a library.
 UUID_LIBRARY_/usr/lib/x86_64-linux-gnu/libuuid.so:FILEPATH=UUID_LIBRARY_/usr/lib/x86_64-linux-gnu/libuuid.so-NOTFOUND
 
@@ -630,7 +639,10 @@ ZeroMQ_DIR:PATH=ZeroMQ_DIR-NOTFOUND
 ZeroMQ_LIBRARY_zmq:FILEPATH=/usr/lib/x86_64-linux-gnu/libzmq.so
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/foxy/lib/librobot_state_publisher_node.so
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/foxy/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/foxy/share/ament_cmake/cmake
@@ -707,6 +719,9 @@ ament_copyright_BIN:FILEPATH=/opt/ros/foxy/bin/ament_copyright
 //Path to a program.
 ament_flake8_BIN:FILEPATH=/opt/ros/foxy/bin/ament_flake8
 
+//The directory containing a CMake configuration file for ament_index_cpp.
+ament_index_cpp_DIR:PATH=/opt/ros/foxy/share/ament_index_cpp/cmake
+
 //The directory containing a CMake configuration file for ament_lint_auto.
 ament_lint_auto_DIR:PATH=/opt/ros/foxy/share/ament_lint_auto/cmake
 
@@ -755,6 +770,18 @@ builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
 //The directory containing a CMake configuration file for ccd.
 ccd_DIR:PATH=ccd_DIR-NOTFOUND
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/foxy/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for composition_interfaces.
+composition_interfaces_DIR:PATH=/opt/ros/foxy/share/composition_interfaces/cmake
+
+//The directory containing a CMake configuration file for console_bridge.
+console_bridge_DIR:PATH=/opt/ros/foxy/lib/x86_64-linux-gnu/console_bridge/cmake
+
+//The directory containing a CMake configuration file for eigen3_cmake_module.
+eigen3_cmake_module_DIR:PATH=/opt/ros/foxy/share/eigen3_cmake_module/cmake
+
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/foxy/lib/cmake/fastcdr
 
@@ -778,6 +805,9 @@ gazebo_proto_msgs_lib:FILEPATH=/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
 
 //The directory containing a CMake configuration file for gazebo_ros.
 gazebo_ros_DIR:PATH=/opt/ros/foxy/share/gazebo_ros/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/foxy/share/geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for ignition-cmake2.
 ignition-cmake2_DIR:PATH=/usr/share/cmake/ignition-cmake2
@@ -815,11 +845,20 @@ libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cma
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
 
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/foxy/share/message_filters/cmake
+
 //The directory containing a CMake configuration file for octomap.
 octomap_DIR:PATH=/usr/lib/x86_64-linux-gnu/octomap
 
 //Path to a library.
-onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+onelib:FILEPATH=/opt/ros/foxy/lib/x86_64-linux-gnu/liburdfdom_world.so
+
+//Path to a library.
+onelibd:FILEPATH=/opt/ros/foxy/lib/x86_64-linux-gnu/liburdfdom_world.so
+
+//The directory containing a CMake configuration file for orocos_kdl.
+orocos_kdl_DIR:PATH=/opt/ros/foxy/share/orocos_kdl/cmake
 
 //Path to a library.
 pkgcfg_lib_BULLET_BulletCollision:FILEPATH=/usr/lib/x86_64-linux-gnu/libBulletCollision.so
@@ -878,6 +917,9 @@ pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/foxy/share/rcl/cmake
 
+//The directory containing a CMake configuration file for rcl_action.
+rcl_action_DIR:PATH=/opt/ros/foxy/share/rcl_action/cmake
+
 //The directory containing a CMake configuration file for rcl_interfaces.
 rcl_interfaces_DIR:PATH=/opt/ros/foxy/share/rcl_interfaces/cmake
 
@@ -889,6 +931,12 @@ rcl_yaml_param_parser_DIR:PATH=/opt/ros/foxy/share/rcl_yaml_param_parser/cmake
 
 //The directory containing a CMake configuration file for rclcpp.
 rclcpp_DIR:PATH=/opt/ros/foxy/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_action.
+rclcpp_action_DIR:PATH=/opt/ros/foxy/share/rclcpp_action/cmake
+
+//The directory containing a CMake configuration file for rclcpp_components.
+rclcpp_components_DIR:PATH=/opt/ros/foxy/share/rclcpp_components/cmake
 
 //The directory containing a CMake configuration file for rclpy.
 rclpy_DIR:PATH=/opt/ros/foxy/share/rclpy/cmake
@@ -913,6 +961,9 @@ robbie_simulator_BINARY_DIR:STATIC=/home/sonia/robbie-the-robot-arm/V3/build/rob
 
 //Value Computed by CMake
 robbie_simulator_SOURCE_DIR:STATIC=/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator
+
+//The directory containing a CMake configuration file for robot_state_publisher.
+robot_state_publisher_DIR:PATH=/opt/ros/foxy/share/robot_state_publisher/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/foxy/share/rosgraph_msgs/cmake
@@ -962,6 +1013,9 @@ rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/foxy/share/rosidl_typesup
 //The directory containing a CMake configuration file for sdformat9.
 sdformat9_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/sdformat9
 
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/foxy/share/sensor_msgs/cmake
+
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 
@@ -974,8 +1028,32 @@ statistics_msgs_DIR:PATH=/opt/ros/foxy/share/statistics_msgs/cmake
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/foxy/share/std_msgs/cmake
 
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/foxy/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/foxy/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/foxy/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tinyxml_vendor.
+tinyxml_vendor_DIR:PATH=/opt/ros/foxy/share/tinyxml_vendor/cmake
+
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/foxy/share/tracetools/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/foxy/share/unique_identifier_msgs/cmake
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/opt/ros/foxy/share/urdf/cmake
+
+//The directory containing a CMake configuration file for urdfdom.
+urdfdom_DIR:PATH=/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake
+
+//The directory containing a CMake configuration file for urdfdom_headers.
+urdfdom_headers_DIR:PATH=/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -1186,7 +1264,7 @@ CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 DART_DEFINITIONS:INTERNAL=
 DART_INCLUDE_DIRS:INTERNAL=/usr/include
-DART_LIBRARIES:INTERNAL=dart;dart
+DART_LIBRARIES:INTERNAL=dart;dart;dart;dart;dart;dart;dart;dart
 //Boost min version requirement
 DART_MIN_BOOST_VERSION:INTERNAL=1.58.0
 DART_dart_DEFINITIONS:INTERNAL=
@@ -1203,9 +1281,11 @@ FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boo
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][c ][v7.68.0()]
 //Details about finding DART
-FIND_PACKAGE_MESSAGE_DETAILS_DART:INTERNAL=[/usr/include][dart;dart][cfound components: dart ][v(6.6)]
+FIND_PACKAGE_MESSAGE_DETAILS_DART:INTERNAL=[/usr/include][dart;dart;dart;dart;dart;dart;dart;dart][cfound components: dart ][v(6.6)]
 //Details about finding DL
 FIND_PACKAGE_MESSAGE_DETAILS_DL:INTERNAL=[true][v()]
+//Details about finding Eigen3
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.3.7()]
 //Details about finding FastRTPS
 FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/foxy/include][/opt/ros/foxy/lib/libfastrtps.so;/opt/ros/foxy/lib/libfastcdr.so][v()]
 //Details about finding JSONCPP
@@ -1664,6 +1744,10 @@ TINYXML2_tinyxml2_INCLUDEDIR:INTERNAL=
 TINYXML2_tinyxml2_LIBDIR:INTERNAL=
 TINYXML2_tinyxml2_PREFIX:INTERNAL=
 TINYXML2_tinyxml2_VERSION:INTERNAL=
+//ADVANCED property for variable: TinyXML_INCLUDE_DIR
+TinyXML_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TinyXML_LIBRARY
+TinyXML_LIBRARY-ADVANCED:INTERNAL=1
 UUID_CFLAGS:INTERNAL=-I/usr/include/uuid
 UUID_CFLAGS_I:INTERNAL=
 UUID_CFLAGS_OTHER:INTERNAL=
