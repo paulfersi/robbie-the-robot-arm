@@ -22,11 +22,4 @@ def generate_launch_description():
          #  name='joint_state_publisher_gui',
           # output='screen'
        # ),
-        Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            name='spawn_entity',
-            output='screen',
-            arguments=['-entity', 'robot', '-topic', 'robot_description'],
-        )
     ])
