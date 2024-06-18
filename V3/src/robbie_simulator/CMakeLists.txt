@@ -24,8 +24,8 @@ find_package(robot_state_publisher REQUIRED)
 
 # Install Python scripts
 install(PROGRAMS
-  src/robbie_simulator/src/scripts/move_robot_arm.py
-  src/robbie_simulator/src/scripts/joint_state_publisher_gui.py
+  src/scripts/move_robot_arm.py
+  src/scripts/joint_state_publisher_gui.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
