@@ -22,8 +22,21 @@ find_package(std_msgs REQUIRED)
 find_package(gazebo_ros REQUIRED)
 find_package(robot_state_publisher REQUIRED)
 
-install(DIRECTORY launch urdf scripts 
-DESTINATION share/${PROJECT_NAME}
+# Install Python scripts
+install(PROGRAMS
+  src/robbie_simulator/src/scripts/move_robot_arm.py
+  src/robbie_simulator/src/scripts/joint_state_publisher_gui.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install launch files
+install(DIRECTORY src/robbie_simulator/src/launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
+# Install URDF files
+install(DIRECTORY src/robbie_simulator/src/urdf
+  DESTINATION share/${PROJECT_NAME}
 )
 
 
