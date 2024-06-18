@@ -22,7 +22,9 @@ find_package(std_msgs REQUIRED)
 find_package(gazebo_ros REQUIRED)
 find_package(robot_state_publisher REQUIRED)
 
-install(DIRECTORY launch urdf DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY launch urdf scripts 
+DESTINATION share/${PROJECT_NAME}
+)
 
 
 if(BUILD_TESTING)
