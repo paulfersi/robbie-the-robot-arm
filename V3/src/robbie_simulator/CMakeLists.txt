@@ -23,9 +23,8 @@ find_package(robot_state_publisher REQUIRED)
 
 # Install Python scripts
 install(PROGRAMS
-  src/scripts/move_robot_arm.py
   src/scripts/joint_state_publisher_gui.py
-  DESTINATION share/${PROJECT_NAME}
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 # Install launch files
