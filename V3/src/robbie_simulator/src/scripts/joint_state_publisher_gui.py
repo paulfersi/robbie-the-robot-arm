@@ -10,7 +10,7 @@ class JointStatePublisherGUI(Node):
         super().__init__('joint_state_publisher_gui')
         self.publisher = self.create_publisher(JointState, '/joint_states', 10)
         self.joint_names = ['joint1', 'joint2', 'joint3', 'joint4']  
-        self.joint_positions = [0.0] * len(self.joint_names)
+        self.joint_positions = [0.0] * len(self.joint_names) 
         
         self.root = tk.Tk()
         self.root.title("Joint State Publisher GUI")
