@@ -1,1 +1,1 @@
-rclpy;std_msgs;robot_state_publisher;rviz;xacro
+rclpy;std_msgs;robot_state_publisher;joint_state_publisher;rviz;xacro
