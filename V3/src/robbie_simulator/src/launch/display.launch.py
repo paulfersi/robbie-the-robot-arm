@@ -7,7 +7,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         DeclareLaunchArgument(name='use_sim_time', default_value='true', description='Use simulation (Gazebo) clock if true'),
-        DeclareLaunchArgument('robot_description_path',default_value='$(find robbie_simulator)/urdf/robbie.urdf',description='Absolute path to robot urdf file'),
+        DeclareLaunchArgument('robot_description_path',default_value='$(find robbie_simulator)/src/urdf/robbie.urdf',description='Absolute path to robot urdf file'),
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
