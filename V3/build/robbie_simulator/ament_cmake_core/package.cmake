@@ -1,11 +1,19 @@
 set(_AMENT_PACKAGE_NAME "robbie_simulator")
 set(robbie_simulator_VERSION "0.0.0")
 set(robbie_simulator_MAINTAINER "sonia <128245752+paulfersi@users.noreply.github.com>")
+<<<<<<< HEAD
 set(robbie_simulator_BUILD_DEPENDS "rclpy" "std_msgs" "robot_state_publisher" "joint_state_publisher" "rviz" "xacro")
 set(robbie_simulator_BUILDTOOL_DEPENDS "ament_cmake")
 set(robbie_simulator_BUILD_EXPORT_DEPENDS "rclpy" "std_msgs" "robot_state_publisher" "joint_state_publisher" "rviz" "xacro")
 set(robbie_simulator_BUILDTOOL_EXPORT_DEPENDS )
 set(robbie_simulator_EXEC_DEPENDS "rclpy" "std_msgs" "robot_state_publisher" "joint_state_publisher" "rviz" "xacro")
+=======
+set(robbie_simulator_BUILD_DEPENDS "rclpy" "std_msgs" "gazebo_ros" "robot_state_publisher")
+set(robbie_simulator_BUILDTOOL_DEPENDS "ament_cmake")
+set(robbie_simulator_BUILD_EXPORT_DEPENDS "rclpy" "std_msgs" "gazebo_ros" "robot_state_publisher")
+set(robbie_simulator_BUILDTOOL_EXPORT_DEPENDS )
+set(robbie_simulator_EXEC_DEPENDS "rclpy" "std_msgs" "gazebo_ros" "robot_state_publisher")
+>>>>>>> dev
 set(robbie_simulator_TEST_DEPENDS )
 set(robbie_simulator_GROUP_DEPENDS )
 set(robbie_simulator_MEMBER_OF_GROUPS )
