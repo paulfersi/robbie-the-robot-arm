@@ -12,7 +12,7 @@ def generate_launch_description():
     rviz_config_path = os.path.join(pkg_share, '/src/rviz/robbie.rviz')
  
     #path to the URDF file
-    urdf_model_path = os.path.join(pkg_share, '/src/urdf/robbie.urdf')
+    urdf_model_path = os.path.join(pkg_share, '/src/urdf/test_robot.xacro')
 
     urdf_model = LaunchConfiguration('urdf_model')
     rviz_config_file = LaunchConfiguration('rviz_config_file')
@@ -43,14 +43,14 @@ def generate_launch_description():
     package='robot_state_publisher',
     executable='robot_state_publisher',
     parameters=[{'use_sim_time': True, 
-    'robot_description': Command(['cat ', urdf_model])}],
+    'robot_description': Command(['xacro ', urdf_model])}],
     arguments=[urdf_model_path])
 
     start_robot_state_publisher_cmd = Node(
     package='robot_state_publisher',
     executable='robot_state_publisher',
     parameters=[{'use_sim_time': True, 
-    'robot_description': Command(['cat ', urdf_model])}],
+    'robot_description': Command(['xacro ', urdf_model])}],
     arguments=[urdf_model_path])
 
     start_rviz_cmd = Node(
