@@ -13,8 +13,7 @@
   <depend>std_msgs</depend>
   <depend>robot_state_publisher</depend>
   <depend>joint_state_publisher</depend>
-  <depend>rviz</depend>
-  <depend>xacro</depend>
+  <depend>rviz2</depend>
 
 
   <export>
