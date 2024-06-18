@@ -12,7 +12,6 @@
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
   <depend>gazebo_ros</depend>
-  <depend>joint_state_publisher_gui</depend>
   <depend>robot_state_publisher</depend>
 
 

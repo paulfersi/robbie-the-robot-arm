@@ -15,7 +15,7 @@ def generate_launch_description():
             arguments=[Command(['xacro ', LaunchConfiguration('robot_description_path')])]
         ),
         Node(
-            package='joint_state_publisher_gui',
+            package='robbie_simulator',
             executable='joint_state_publisher_gui',
             name='joint_state_publisher_gui',
             output='screen'
