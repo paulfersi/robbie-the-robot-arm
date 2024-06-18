@@ -30,12 +30,12 @@ install(PROGRAMS
 )
 
 # Install launch files
-install(DIRECTORY src/robbie_simulator/src/launch
+install(DIRECTORY src/launch
   DESTINATION share/${PROJECT_NAME}
 )
 
 # Install URDF files
-install(DIRECTORY src/robbie_simulator/src/urdf
+install(DIRECTORY src/urdf
   DESTINATION share/${PROJECT_NAME}
 )
 
