@@ -29,12 +29,12 @@ def generate_launch_description():
     default_value=rviz_config_path,
     description='Full path to the RVIZ config')
 
-    #start_robot_state_publisher_cmd = Node(
-    #package='robot_state_publisher',
-    #executable='robot_state_publisher',
-    #parameters=[{'use_sim_time': True, 
-    #'robot_description': Command(['xacro ', urdf_model])}],
-    #arguments=[urdf_model_path])
+    start_robot_state_publisher_cmd = Node(
+    package='robot_state_publisher',
+    executable='robot_state_publisher',
+    parameters=[{'use_sim_time': True, 
+    'robot_description': Command(['cat ', urdf_model])}],
+    arguments=[urdf_model_path])
 
     start_rviz_cmd = Node(
     package='rviz2',
