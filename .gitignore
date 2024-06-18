@@ -9,3 +9,5 @@ Log/*.txt
 *Log/
 *log/
 INSTALL
+install/
+build/
