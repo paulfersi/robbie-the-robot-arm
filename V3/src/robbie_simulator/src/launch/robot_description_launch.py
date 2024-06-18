@@ -5,7 +5,7 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
-    urdf_file = os.path.join(get_package_share_directory('robbie_simulator'), 'src/urdf', 'robbie.urdf')
+    urdf_file = os.path.join(get_package_share_directory('robbie_simulator'), '..' , 'src', 'urdf', 'robbie.urdf')
 
     return LaunchDescription([
         Node(
