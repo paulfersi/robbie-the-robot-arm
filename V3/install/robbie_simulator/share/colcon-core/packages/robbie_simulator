@@ -1,1 +1,1 @@
-gazebo_ros:rclpy:robot_state_publisher:std_msgs
+joint_state_publisher:rclpy:robot_state_publisher:rviz:std_msgs:xacro

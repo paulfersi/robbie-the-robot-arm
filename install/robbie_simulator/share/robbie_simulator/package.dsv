@@ -1,0 +1,8 @@
+source;share/robbie_simulator/hook/cmake_prefix_path.ps1
+source;share/robbie_simulator/hook/cmake_prefix_path.dsv
+source;share/robbie_simulator/hook/cmake_prefix_path.sh
+source;share/robbie_simulator/local_setup.bash
+source;share/robbie_simulator/local_setup.dsv
+source;share/robbie_simulator/local_setup.ps1
+source;share/robbie_simulator/local_setup.sh
+source;share/robbie_simulator/local_setup.zsh

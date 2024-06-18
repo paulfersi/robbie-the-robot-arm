@@ -49,6 +49,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robbie_simulator" TYPE DIRECTORY FILES "/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator/src/rviz")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robbie_simulator" TYPE DIRECTORY FILES "/home/sonia/robbie-the-robot-arm/V3/src/robbie_simulator/src/urdf")
 endif()
 
