@@ -13,6 +13,7 @@
   <depend>std_msgs</depend>
   <depend>robot_state_publisher</depend>
   <depend>rviz</depend>
+  <depend>xarco</depend>
 
 
   <export>
