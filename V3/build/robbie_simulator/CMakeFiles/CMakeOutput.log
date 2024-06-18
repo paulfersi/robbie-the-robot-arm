@@ -459,3 +459,35 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13876/fast && make[1]: Entering directory '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_13876.dir/build.make CMakeFiles/cmTC_13876.dir/build
+make[2]: Entering directory '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13876.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_13876.dir/CheckIncludeFile.c.o   -c /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_13876
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13876.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_13876.dir/CheckIncludeFile.c.o  -o cmTC_13876 
+make[2]: Leaving directory '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c98e/fast && make[1]: Entering directory '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4c98e.dir/build.make CMakeFiles/cmTC_4c98e.dir/build
+make[2]: Entering directory '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c98e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4c98e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c98e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c98e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4c98e.dir/CheckFunctionExists.c.o  -o cmTC_4c98e  -lpthread 
+make[2]: Leaving directory '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/sonia/robbie-the-robot-arm/V3/build/robbie_simulator/CMakeFiles/CMakeTmp'
+
+
+

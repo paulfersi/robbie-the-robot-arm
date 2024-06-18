@@ -17,9 +17,14 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rclpy REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(gazebo_ros REQUIRED)
+find_package(joint_state_publisher_gui REQUIRED)
+find_package(robot_state_publisher REQUIRED)
+
+install(DIRECTORY launch urdf scripts DESTINATION share/${PROJECT_NAME})
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
