@@ -33,6 +33,11 @@ install(DIRECTORY src/launch
   DESTINATION share/${PROJECT_NAME}
 )
 
+# Install rviz files 
+install(DIRECTORY src/rviz
+  DESTINATION share/${PROJECT_NAME}
+)
+
 # Install URDF files
 install(DIRECTORY src/urdf
   DESTINATION share/${PROJECT_NAME}

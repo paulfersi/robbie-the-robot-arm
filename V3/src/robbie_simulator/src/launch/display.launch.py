@@ -16,10 +16,5 @@ def generate_launch_description():
             parameters=[{'use_sim_time': LaunchConfiguration('use_sim_time')}],
             arguments=[LaunchConfiguration('robot_description_path')]
         ),
-        #Node(
-       #    package='robbie_simulator',
-        #   executable='joint_state_publisher_gui',
-         #  name='joint_state_publisher_gui',
-          # output='screen'
-       # ),
     ])
+

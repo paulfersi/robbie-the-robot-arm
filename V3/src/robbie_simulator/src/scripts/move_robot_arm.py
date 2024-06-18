@@ -19,7 +19,7 @@ class MoveRobotArm(Node):
         msg3 = Float64()
         msg4 = Float64()
 
-        msg1.data = 1.0  # Replace with the desired joint angle
+        msg1.data = 1.0 
         msg2.data = 0.5
         msg3.data = 0.0
         msg4.data = -1.0
