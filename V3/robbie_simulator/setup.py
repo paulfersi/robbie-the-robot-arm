@@ -10,6 +10,10 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/urdf', ['urdf/robbie.urdf']),
+        ('share/' + package_name + '/launch', ['launch/joint_state_publisher_launch.py']),
+        ('share/' + package_name + '/launch', ['launch/robot_description_launch.py']),
+        
     ],
     install_requires=['setuptools'],
     zip_safe=True,
