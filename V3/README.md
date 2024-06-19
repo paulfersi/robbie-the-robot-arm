@@ -1,4 +1,14 @@
 This is the ROS workspace.
+I used ros foxy with ubuntu 20.04
+
+## Build
+
+You have to be in the V3 folder. The v3 folder is the ros workspace.
+
+After sourcing ros foxy: 
+
+- colcon build
+- source install/setup.sh 
 
 ## How it works
 
