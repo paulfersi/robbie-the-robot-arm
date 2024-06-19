@@ -21,12 +21,9 @@ find_package(rclpy REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(robot_state_publisher REQUIRED)
 
-add_executable(joint_state_publisher_gui src/scripts/joint_state_publisher_gui.py)
-ament_target_dependencies(joint_state_publisher_gui rclpy std_msgs)
-
-# Install Python 
-install(TARGETS
-  joint_state_publisher_gui
+# Install the Python script
+install(PROGRAMS
+  src/scripts/joint_state_publisher_gui.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
