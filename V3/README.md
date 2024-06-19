@@ -1,5 +1,31 @@
 This is the ROS workspace.
 
+## How it works
+
+There are 2 launchers, one for the joint_state_publisher_gui node and one for the robot_state_publisher node(from another ros package)
+
+## Launch
+
+- ros2 launch robbie_simulator joint_state_publisher_launch.py
+- ros2 launch robbie_simulator robot_description_launch.py
+
+The second node publishes the **robbie.urdf** file on the topic **/robot_description**.
+The robot joints can be controlled via the joint_state_publisher node that launches an UI made using tkinter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Personal notes
+
 **docker build -t robbie_simulator .** When I am in the folder containing the dockerfile
 
 **docker run -it --rm --name robbie_container robbie_simulator**
@@ -11,24 +37,6 @@ This is the ROS workspace.
 http://wiki.ros.org/urdf/XML/joint
 
 ## Run the simulation (inside or outside the docker if the pc has ros2 installed)
-
-```
-cd V3
-colcon build
-source install/setup.bash
-```
-
-Launch gazebo
-
-```
-ros2 launch my_robot_arm display.launch.py
-```
-
-Run the control node
-
-```
-ros2 run my_robot_arm move_robot_arm.py
-```
 
 
 ## Notes on the code
