@@ -23,7 +23,12 @@ In the v2 I added an HTTP server and changed the board to an **Arduino Uno R4 Wi
 
 ## V3
 
-The v3 features a simulated version of the robotic arm using ROS2 and Gazebo. (WIP)
+The v3 features a simulated version of the robotic arm using ROS2 foxy and rviz2.
+
+<p align="center">
+  <img src="/images/simulation.png" width="500">
+</p>
+
 
 
 Sources: https://automaticaddison.com/how-to-load-a-urdf-file-into-rviz-ros-2/
