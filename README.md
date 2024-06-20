@@ -1,4 +1,4 @@
-# Robbie 
+# Robbie
 
 The purpose of this repo is to store the codes for my cute little companion, Robbie the robotic arm. This project is still WIP (cause I don't have a lot of ideas or time to implement them).
 
@@ -20,6 +20,10 @@ The v1 is made using an **Arduino Mega** and 6 buttons to control the robot in a
 ## V2
 
 In the v2 I added an HTTP server and changed the board to an **Arduino Uno R4 Wifi**. The robot can be controlled via a web-ui.
+
+<p align="center">
+  <img src="/images/v2_UI.png" width="500">
+</p>
 
 ## V3
 
